@@ -5,7 +5,7 @@ pipeline {
         // ตัวแปรเก็บชื่อ Credential ที่เราจะไปตั้งค่าในระบบ Jenkins ทีหลัง
         DOCKER_CREDENTIAL_ID = 'docker-hub-auth' 
         // ⚠️ แก้ไขตรงนี้: เปลี่ยน 'your-docker-username' เป็น Username ของคุณ
-        IMAGE_NAME = 'your-docker-username/my-cloud-api' 
+        IMAGE_NAME = 'sam007gitanddocker/test-clode' 
     }
 
     stages {
